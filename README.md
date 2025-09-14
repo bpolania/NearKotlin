@@ -10,23 +10,8 @@ A sample Android wallet application demonstrating the use of NEAR-Kotlin-RPC cli
 - **Multiple Accounts**: Support for both implicit and named accounts
 - **NEP-141 Token Support**: Add and track fungible tokens
 - **Balance Viewing**: Real-time NEAR and token balance fetching
-- **Network Switching**: Toggle between Testnet and Mainnet
 - **Import Wallet**: Restore wallet from seed phrase
-- **Material Design 3**: Modern UI with Jetpack Compose
-
-### Suggested Future Enhancements
-- **Transaction Signing**: Sign and send NEAR transactions
-- **Transaction History**: View past transactions for accounts
-- **QR Code Support**: Generate and scan QR codes for addresses
-- **Biometric Authentication**: Secure wallet with fingerprint/face
-- **Token Swaps**: Integration with DEX protocols
-- **Staking**: Delegate NEAR to validators
-- **NFT Support**: View and manage NEP-171 NFTs
-- **WalletConnect**: Connect to dApps
-- **Push Notifications**: Transaction alerts
-- **Price Tracking**: NEAR and token price charts
-- **Export Private Keys**: Backup individual account keys
-- **Multi-language Support**: Internationalization
+- **Material Design 3**: UI with Jetpack Compose
 
 ## Setup
 
@@ -126,21 +111,6 @@ val response = client.callFunction(
     argsBase64 = Base64.encode(args)
 )
 ```
-
-## Development Tips
-
-### Using with Claude Code
-From the project directory:
-```bash
-# Start Claude Code
-claude
-
-# Example prompts:
-"Add transaction signing functionality"
-"Implement QR code scanner for addresses"
-"Add biometric authentication"
-```
-
 ### Testing
 ```bash
 # Run unit tests
