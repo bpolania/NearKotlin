@@ -162,10 +162,3 @@ Feel free to extend this sample app with additional features. Some areas to expl
 ## License
 
 MIT
-
-## Acknowledgments
-
-- NEAR Protocol for the blockchain infrastructure
-- NEAR-Kotlin-RPC library for blockchain interaction
-- BitcoinJ for key generation utilities
-- Jetpack Compose for modern Android UI
