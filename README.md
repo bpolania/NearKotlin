@@ -74,15 +74,7 @@ app/src/main/java/com/example/nearkotlin/
 
 ## Security Considerations
 
-**This is a sample app for demonstration purposes**
-
-For production use, implement:
-- Encrypted storage for private keys
-- Biometric authentication
-- Secure key backup mechanisms
-- Hardware security module integration
-- Proper error handling and validation
-- Network security best practices
+**This is a sample app for demonstration purposes use ONLY in testnet**
 
 ## API Usage Examples
 
